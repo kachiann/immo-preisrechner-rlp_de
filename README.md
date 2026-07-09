@@ -74,11 +74,9 @@ Download `immo_data.csv` and place it at `data/immo_data.csv`.
 
 | Metric | Value |
 |---|---|
-| R² | ~0.82–0.87 |
-| RMSE | ~€40,000–70,000 |
-| MAE | ~€28,000–50,000 |
-
-*(depends on how many RP listings are in the dataset — actual values written to `models/metrics.json` after training)*
+| R² | 0.7491 |
+| RMSE | ~€130000 |
+| MAE | ~€78,000 |
 
 ---
 
