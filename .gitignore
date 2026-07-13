@@ -1,7 +1,16 @@
 data/*.csv
+!data/zip_lat_lang.csv
+
 data/*.db
+!data/housing.db
+
 models/*.joblib
+!models/model.joblib
+!models/preprocessor.joblib
+
 models/*.json
+!models/metrics.json
+
 mlruns/
 __pycache__/
 .env
