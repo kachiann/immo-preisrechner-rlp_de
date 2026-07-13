@@ -64,6 +64,15 @@ MODEL_PATH        = Path("models/model.joblib")
 PREPROCESSOR_PATH = Path("models/preprocessor.joblib")
 METRICS_PATH      = Path("models/metrics.json")
 
+required = [DB_PATH, MODEL_PATH, PREPROCESSOR_PATH, METRICS_PATH]
+missing = [str(p) for p in required if not p.exists()]
+
+if missing:
+    st.error(
+        "Missing required files for the app to start:\n- " + "\n- ".join(missing)
+    )
+    st.stop()
+
 TARGET = "obj_purchasePrice"
 
 # ── Feature config (must match train.py) ──────────────────────────────────────
