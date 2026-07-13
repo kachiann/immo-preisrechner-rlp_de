@@ -29,6 +29,10 @@ A machine learning app that estimates residential property purchase prices in **
 
 ---
 
+![Interface](images/Screenshot.png)
+
+---
+
 ## Quickstart
 
 ```bash
