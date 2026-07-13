@@ -80,14 +80,6 @@ Download `immo_data.csv` and place it at `data/immo_data.csv`.
 
 ---
 
-## Deploy to Streamlit Cloud
-
-1. Push to GitHub (data/model files are gitignored)
-2. Add a `setup.sh` that runs `setup_db.py` and `train.py` on startup
-3. Connect the repo at [share.streamlit.io](https://share.streamlit.io) → main file: `app.py`
-
----
-
 ## Project Structure
 
 ```
