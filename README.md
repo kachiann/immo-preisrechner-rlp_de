@@ -2,7 +2,7 @@
 
 A machine learning app that estimates residential property purchase prices in **Rhineland-Palatinate, Germany**, using real ImmobilienScout24 listing data.
 
-**Live demo:** *(deploy to Streamlit Cloud — see below)*
+**Live demo:** *(deployed to [Streamlit Cloud](https://immo-preisrechner-rlpde.streamlit.app/))*
 
 ---
 
